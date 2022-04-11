@@ -1,3 +1,44 @@
+.container {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container nav {
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container nav .sidebar {
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container nav .sidebar .youtube__icon {
+  width: 150px;
+  height: 50px;
+}
+
+.container nav .search {
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container nav .perfil {
+  background-color: black;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
